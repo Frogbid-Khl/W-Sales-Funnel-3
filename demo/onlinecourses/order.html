@@ -1,0 +1,603 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Site Description (change below content value in below line as per your site description) -->
+    <meta name="description" content="Online Courses - Funnels HTML">
+    <!-- Site Keywords (change below content value in below line as per your site keyword ) -->
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript, Funnels HTML, HTML Funnels, Funnels Template, HTML Funnels Template, Funnels  HTML Template">
+    <!-- Company Name(change below content value in below line as per your Company Name) -->
+    <meta name="author" content="OG Web Solutions">
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+    <title>Online Training Courses - Order</title>
+    <!-- Fonts -->
+    <link rel="stylesheet" href="assets/fonts/font.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <!-- Style CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+     <!-- Product Display Section Style -->
+    <link type="text/css" href="../common/css/style-2.css" rel="stylesheet">
+	
+</head>
+
+<body>
+    <!-- Start Header -->
+    <header class="fixed-top home-header header-2 sticky">
+        <div class="container">
+            <nav class="navbar navbar-expand-md navbar-light">
+                <div class="container-fluid p-0">
+                    <!-- Site Logo -->
+                    <a class="navbar-brand" href="index.html"><img class="light-logo" src="assets/images/navbar-logo.svg" alt="Online Training Courses" loading="lazy"></a>
+                    <div class="justify-content-end" id="navbarNav">
+                        <!-- Page Heighlight Text -->
+                        <ul class="navbar-nav">
+                            <li class="nav-item text-white">Thanks For Registering for Online Training!</li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Main -->
+    <main>
+        <!-- About Webinar Section Start Here -->
+        <section id="order-id" class="orderformSection banner-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="orderleftSec">
+                            <h1 class="text-warning text-white px-md-4">Upgrade To The <span>Platinum
+							Pass</span> Now And Get All These
+                                <u>Tools & Templates</u> To Help You
+                                <u>Fast-Track Your Progress </u>
+                            </h1>
+                            <video poster="assets/images/banner-2.jpg" controls="">
+								<source src="../../click-funnel-videos/video-2.mp4" type="video/mp4">
+								<source src="../../click-funnel-videos/video-2.webm" type="video/webm">
+							</video>
+                            <ul>
+                                <li class="text-white"><span>Consectetur adipiscing elit. Integer nec odio.</span> Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum.</li>
+                                <li class="text-white"><span>Consectetur adipiscing elit. Integer nec odio.</span> Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum.</li>
+                                <li class="text-white"><span>Consectetur adipiscing elit. Integer nec odio.</span> Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum.</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="orderrightSec bg-white">
+                            <h5 class="form-title title-top">
+                                <span class="text-white">Your Shipping Information</span>
+                            </h5>
+                            <form id="order-form" action="https://www.paypal.com/cgi-bin/webscr" novalidate="novalidate">  
+							<input type='hidden' name='stripeToken' id='stripeToken'>
+                            <input type="hidden" name="productId" value="1">
+                            <input type="hidden" name="item_name" value="Online Training Courses - Order Form Submission">
+                            <input type="hidden" name="amount" value="99.00">
+                            <input type="hidden" name="pt" id="pt" value="index.html">
+                            <input type="hidden" name="business" value="ogwebsolutions@gmail.com">
+                            <input type="hidden" name="cmd" value="_xclick">
+                            <input type="hidden" name="item_number" value="1">
+                            <input type="hidden" name="credits" value="30.00">
+                            <input type="hidden" name="userid" value="1">
+                            <input type="hidden" name="amount" id="txtDonateAmt" value="99.00">
+                            <input type="hidden" name="cpp_header_image" value="">
+                            <input type="hidden" name="no_shipping" value="1">
+                            <input type="hidden" name="currency_code" value="USD">
+                            <input type="hidden" name="handling" value="0">
+                            <input type="hidden" name="cancel_return" value="order-cancelled.html">
+                            <input type="hidden" name="return" value="thankyou.html">
+                                <div class="form-row">
+                                    <div class="col">
+                                        <input type="text" class="form-control" name="full_name" placeholder="Full Name..." aria-required="true" aria-invalid="true">
+                                    </div>
+                                    <div class="col">
+                                        <input type="email" class="form-control" name="email" placeholder="Email Address..." aria-required="true" aria-invalid="true">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control" name="billing_address" placeholder="Full Address..." aria-required="true" aria-invalid="true">
+                                    </div>
+                                    <div class="col">
+                                        <input type="text" class="form-control" name="city" placeholder="City Name..." aria-required="true" aria-invalid="true">
+                                    </div>
+                                    <div class="row g-2">
+                                        <div class="col-8">
+                                            <input type="text" class="form-control" name="state" placeholder="State" aria-required="true" aria-invalid="true">
+                                        </div>
+                                        <div class="col-4">
+                                            <input type="text" class="form-control" name="zip" placeholder="Zip Code" aria-required="true" aria-invalid="true">
+                                        </div>
+                                    </div>
+                                    <div class="col">
+                                        <select class="form-control form-select" name="country" aria-required="true" aria-invalid="true">
+									<option value="">Select Country...</option>
+									<option value="US">United States</option>
+									<option value="CA">Canada</option>
+									<option value="GB">United Kingdom</option>
+									<option value="IE">Ireland</option>
+									<option value="AU">Australia</option>
+									<option value="NZ">New Zealand</option>
+									<option value="AF">Afghanistan</option>
+									<option value="AX">Aland Islands</option>
+									<option value="AL">Albania</option>
+									<option value="DZ">Algeria</option>
+									<option value="AS">American Samoa</option>
+									<option value="AD">Andorra</option>
+									<option value="AO">Angola</option>
+									<option value="AI">Anguilla</option>
+									<option value="AQ">Antarctica</option>
+									<option value="AG">Antigua and Barbuda</option>
+									<option value="AR">Argentina</option>
+									<option value="AM">Armenia</option>
+									<option value="AW">Aruba</option>
+									<option value="AU">Australia</option>
+									<option value="AT">Austria</option>
+									<option value="AZ">Azerbaijan</option>
+									<option value="BS">Bahamas</option>
+									<option value="BH">Bahrain</option>
+									<option value="BD">Bangladesh</option>
+									<option value="BB">Barbados</option>
+									<option value="BY">Belarus</option>
+									<option value="BE">Belgium</option>
+									<option value="BZ">Belize</option>
+									<option value="BJ">Benin</option>
+									<option value="BM">Bermuda</option>
+									<option value="BT">Bhutan</option>
+									<option value="BO">Bolivia</option>
+									<option value="BQ">Bonaire, Saint Eustatius and Saba </option>
+									<option value="BA">Bosnia and Herzegovina</option>
+									<option value="BW">Botswana</option>
+									<option value="BV">Bouvet Island</option>
+									<option value="BR">Brazil</option>
+									<option value="IO">British Indian Ocean Territory</option>
+									<option value="VG">British Virgin Islands</option>
+									<option value="BN">Brunei</option>
+									<option value="BG">Bulgaria</option>
+									<option value="BF">Burkina Faso</option>
+									<option value="BI">Burundi</option>
+									<option value="KH">Cambodia</option>
+									<option value="CM">Cameroon</option>
+									<option value="CA">Canada</option>
+									<option value="CV">Cape Verde</option>
+									<option value="KY">Cayman Islands</option>
+									<option value="CF">Central African Republic</option>
+									<option value="TD">Chad</option>
+									<option value="CL">Chile</option>
+									<option value="CN">China</option>
+									<option value="CX">Christmas Island</option>
+									<option value="CC">Cocos Islands</option>
+									<option value="CO">Colombia</option>
+									<option value="KM">Comoros</option>
+									<option value="CK">Cook Islands</option>
+									<option value="CR">Costa Rica</option>
+									<option value="HR">Croatia</option>
+									<option value="CU">Cuba</option>
+									<option value="CW">Curacao</option>
+									<option value="CY">Cyprus</option>
+									<option value="CZ">Czech Republic</option>
+									<option value="CD">Democratic Republic of the Congo</option>
+									<option value="DK">Denmark</option>
+									<option value="DJ">Djibouti</option>
+									<option value="DM">Dominica</option>
+									<option value="DO">Dominican Republic</option>
+									<option value="TL">East Timor</option>
+									<option value="EC">Ecuador</option>
+									<option value="EG">Egypt</option>
+									<option value="SV">El Salvador</option>
+									<option value="GQ">Equatorial Guinea</option>
+									<option value="ER">Eritrea</option>
+									<option value="EE">Estonia</option>
+									<option value="ET">Ethiopia</option>
+									<option value="FK">Falkland Islands</option>
+									<option value="FO">Faroe Islands</option>
+									<option value="FJ">Fiji</option>
+									<option value="FI">Finland</option>
+									<option value="FR">France</option>
+									<option value="GF">French Guiana</option>
+									<option value="PF">French Polynesia</option>
+									<option value="TF">French Southern Territories</option>
+									<option value="GA">Gabon</option>
+									<option value="GM">Gambia</option>
+									<option value="GE">Georgia</option>
+									<option value="DE">Germany</option>
+									<option value="GH">Ghana</option>
+									<option value="GI">Gibraltar</option>
+									<option value="GR">Greece</option>
+									<option value="GL">Greenland</option>
+									<option value="GD">Grenada</option>
+									<option value="GP">Guadeloupe</option>
+									<option value="GU">Guam</option>
+									<option value="GT">Guatemala</option>
+									<option value="GG">Guernsey</option>
+									<option value="GN">Guinea</option>
+									<option value="GW">Guinea-Bissau</option>
+									<option value="GY">Guyana</option>
+									<option value="HT">Haiti</option>
+									<option value="HM">Heard Island and McDonald Islands</option>
+									<option value="HN">Honduras</option>
+									<option value="HK">Hong Kong</option>
+									<option value="HU">Hungary</option>
+									<option value="IS">Iceland</option>
+									<option value="IN">India</option>
+									<option value="ID">Indonesia</option>
+									<option value="IR">Iran</option>
+									<option value="IQ">Iraq</option>
+									<option value="IE">Ireland</option>
+									<option value="IM">Isle of Man</option>
+									<option value="IL">Israel</option>
+									<option value="IT">Italy</option>
+									<option value="CI">Ivory Coast</option>
+									<option value="JM">Jamaica</option>
+									<option value="JP">Japan</option>
+									<option value="JE">Jersey</option>
+									<option value="JO">Jordan</option>
+									<option value="KZ">Kazakhstan</option>
+									<option value="KE">Kenya</option>
+									<option value="KI">Kiribati</option>
+									<option value="XK">Kosovo</option>
+									<option value="KW">Kuwait</option>
+									<option value="KG">Kyrgyzstan</option>
+									<option value="LA">Laos</option>
+									<option value="LV">Latvia</option>
+									<option value="LB">Lebanon</option>
+									<option value="LS">Lesotho</option>
+									<option value="LR">Liberia</option>
+									<option value="LY">Libya</option>
+									<option value="LI">Liechtenstein</option>
+									<option value="LT">Lithuania</option>
+									<option value="LU">Luxembourg</option>
+									<option value="MO">Macao</option>
+									<option value="MK">Macedonia</option>
+									<option value="MG">Madagascar</option>
+									<option value="MW">Malawi</option>
+									<option value="MY">Malaysia</option>
+									<option value="MV">Maldives</option>
+									<option value="ML">Mali</option>
+									<option value="MT">Malta</option>
+									<option value="MH">Marshall Islands</option>
+									<option value="MQ">Martinique</option>
+									<option value="MR">Mauritania</option>
+									<option value="MU">Mauritius</option>
+									<option value="YT">Mayotte</option>
+									<option value="MX">Mexico</option>
+									<option value="FM">Micronesia</option>
+									<option value="MD">Moldova</option>
+									<option value="MC">Monaco</option>
+									<option value="MN">Mongolia</option>
+									<option value="ME">Montenegro</option>
+									<option value="MS">Montserrat</option>
+									<option value="MA">Morocco</option>
+									<option value="MZ">Mozambique</option>
+									<option value="MM">Myanmar</option>
+									<option value="NA">Namibia</option>
+									<option value="NR">Nauru</option>
+									<option value="NP">Nepal</option>
+									<option value="NL">Netherlands</option>
+									<option value="NC">New Caledonia</option>
+									<option value="NZ">New Zealand</option>
+									<option value="NI">Nicaragua</option>
+									<option value="NE">Niger</option>
+									<option value="NG">Nigeria</option>
+									<option value="NU">Niue</option>
+									<option value="NF">Norfolk Island</option>
+									<option value="KP">North Korea</option>
+									<option value="MP">Northern Mariana Islands</option>
+									<option value="NO">Norway</option>
+									<option value="OM">Oman</option>
+									<option value="PK">Pakistan</option>
+									<option value="PW">Palau</option>
+									<option value="PS">Palestinian Territory</option>
+									<option value="PA">Panama</option>
+									<option value="PG">Papua New Guinea</option>
+									<option value="PY">Paraguay</option>
+									<option value="PE">Peru</option>
+									<option value="PH">Philippines</option>
+									<option value="PN">Pitcairn</option>
+									<option value="PL">Poland</option>
+									<option value="PT">Portugal</option>
+									<option value="PR">Puerto Rico</option>
+									<option value="QA">Qatar</option>
+									<option value="CG">Republic of the Congo</option>
+									<option value="RE">Reunion</option>
+									<option value="RO">Romania</option>
+									<option value="RU">Russia</option>
+									<option value="RW">Rwanda</option>
+									<option value="BL">Saint Barthelemy</option>
+									<option value="SH">Saint Helena</option>
+									<option value="KN">Saint Kitts and Nevis</option>
+									<option value="LC">Saint Lucia</option>
+									<option value="MF">Saint Martin</option>
+									<option value="PM">Saint Pierre and Miquelon</option>
+									<option value="VC">Saint Vincent and the Grenadines</option>
+									<option value="WS">Samoa</option>
+									<option value="SM">San Marino</option>
+									<option value="ST">Sao Tome and Principe</option>
+									<option value="SA">Saudi Arabia</option>
+									<option value="SN">Senegal</option>
+									<option value="RS">Serbia</option>
+									<option value="SC">Seychelles</option>
+									<option value="SL">Sierra Leone</option>
+									<option value="SG">Singapore</option>
+									<option value="SX">Sint Maarten</option>
+									<option value="SK">Slovakia</option>
+									<option value="SI">Slovenia</option>
+									<option value="SB">Solomon Islands</option>
+									<option value="SO">Somalia</option>
+									<option value="ZA">South Africa</option>
+									<option value="GS">South Georgia and the South Sandwich Islands</option>
+									<option value="KR">South Korea</option>
+									<option value="SS">South Sudan</option>
+									<option value="ES">Spain</option>
+									<option value="LK">Sri Lanka</option>
+									<option value="SD">Sudan</option>
+									<option value="SR">Suriname</option>
+									<option value="SJ">Svalbard and Jan Mayen</option>
+									<option value="SZ">Swaziland</option>
+									<option value="SE">Sweden</option>
+									<option value="CH">Switzerland</option>
+									<option value="SY">Syria</option>
+									<option value="TW">Taiwan</option>
+									<option value="TJ">Tajikistan</option>
+									<option value="TZ">Tanzania</option>
+									<option value="TH">Thailand</option>
+									<option value="TG">Togo</option>
+									<option value="TK">Tokelau</option>
+									<option value="TO">Tonga</option>
+									<option value="TT">Trinidad and Tobago</option>
+									<option value="TN">Tunisia</option>
+									<option value="TR">Turkey</option>
+									<option value="TM">Turkmenistan</option>
+									<option value="TC">Turks and Caicos Islands</option>
+									<option value="TV">Tuvalu</option>
+									<option value="VI">U.S. Virgin Islands</option>
+									<option value="UG">Uganda</option>
+									<option value="UA">Ukraine</option>
+									<option value="AE">United Arab Emirates</option>
+									<option value="GB">United Kingdom</option>
+									<option value="US">United States</option>
+									<option value="UM">United States Minor Outlying Islands</option>
+									<option value="UY">Uruguay</option>
+									<option value="UZ">Uzbekistan</option>
+									<option value="VU">Vanuatu</option>
+									<option value="VA">Vatican</option>
+									<option value="VE">Venezuela</option>
+									<option value="VN">Vietnam</option>
+									<option value="WF">Wallis and Futuna</option>
+									<option value="EH">Western Sahara</option>
+									<option value="YE">Yemen</option>
+									<option value="ZM">Zambia</option>
+									<option value="ZW">Zimbabwe</option>
+								</select>
+                                        <h5 class="form-title">
+                                            <span class="text-red">Step #2 </span>Check Out
+                                        </h5>
+                                        <div class="yourProductlist">
+                                            <ul>
+                                                <li>
+                                                    <div class="pullLeft">
+                                                        <strong>Item</strong>
+                                                    </div>
+                                                    <div class="pullRight">
+                                                        <strong>Amount</strong>
+                                                    </div>
+                                                </li>
+                                                <li>
+                                                    <div class="pullLeft">Dynamic Product Listing</div>
+                                                    <div class="pullRight">$99.00</div>
+                                                </li>
+                                                <li>
+                                                    <div class="pullLeft">
+                                                        <strong>Total</strong>
+                                                    </div>
+                                                    <div class="pullRight">
+                                                        <strong>$99.00</strong>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                                <!-- Payment Details Start Here -->
+                                                <div class="payment-wrap">
+                                                    <h4 class="headingsec">Payment Details</h4>
+                                                    <div class="payment-status" style="color: red;"></div>
+                                                    <div class="form-group paypal-card-group">
+                                                        <label><input type="radio" id="paypalpay" name="paymentmethod"> Paypal</label>
+                                                        <label><input type="radio" id="stripepay" name="paymentmethod"> Pay with credit card / debit card</label>
+                                                    </div>
+                                                    <div id="paymentdiv" class="payment-outer" style="display: none;">
+                                                        <div class="form-group card-number-group">
+                                                            <input type="text" class="form-control" name="card_number" placeholder="Valid Card Number" autocomplete="cc-number" id="card_number" maxlength="16" data-stripe="number">
+                                                        </div>
+                                                        <div class="form-group card-exp-month-group">
+                                                            <select name="card_exp_month" id="card_exp_month" class="form-control form-select" data-stripe="exp_month">
+                                                                <option value="" selected="">MONTH</option>
+                                                                <option value="01">01 ( JAN )</option>
+                                                                <option value="02">02 ( FEB )</option>
+                                                                <option value="03">03 ( MAR )</option>
+                                                                <option value="04">04 ( APR )</option>
+                                                                <option value="05">05 ( MAY )</option>
+                                                                <option value="06">06 ( JUN )</option>
+                                                                <option value="07">07 ( JUL )</option>
+                                                                <option value="08">08 ( AUG )</option>
+                                                                <option value="09">09 ( SEP )</option>
+                                                                <option value="10">10 ( OCT )</option>
+                                                                <option value="11">11 ( NOV )</option>
+                                                                <option value="12">12 ( DEC )</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-group card-exp-year-group">
+                                                            <select name="card_exp_year" id="card_exp_year" class="form-control form-select" data-stripe="exp_year">
+                                                                <option value="" selected="">Year</option>
+                                                                <option value="24">2024</option>
+                                                                <option value="25">2025</option>
+                                                                <option value="26">2026</option>
+                                                                <option value="27">2027</option>
+                                                                <option value="28">2028</option>
+                                                                <option value="29">2029</option>
+                                                                <option value="30">2030</option>
+                                                                <option value="31">2031</option>
+                                                                <option value="32">2032</option>
+                                                                <option value="33">2033</option>
+                                                                <option value="34">2034</option>
+                                                                <option value="35">2035</option>
+                                                            </select>
+                                                        </div>
+                                                        <div class="form-group card-cvc-group">
+                                                            <input type="password" class="form-control" name="card_cvc" placeholder="CVV" autocomplete="cc-csc" id="card_cvc">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                        <!-- Payment Details Ends here -->
+                                                <div class="main-button text-center  form-group btn-outer">
+                                                    <button type="submit" class="pay-btn reg-btn btn text-white d-inline-flex flex-column justify-content-center align-items-center" id="payBtn"><span class="btnmain text-uppercase font-weight-bold title text-white">Yes! I Want To Upgrade</span></button>
+                                                    <div id="loader" style="display: none"><img src="assets/images/ajax-loader.gif"></div>
+                                                    
+                                                </div>
+                                                <div class="form-status mt-4"></div>
+                                                <p class="mt-2" onclick="window.location.href = 'order-cancelled.html';">No thanks, I don’t like discounts and I'd rather pay full price later</p>
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Page Content Wrapper End Here -->
+        <!-- Testimomials -->
+        <section id="testimonials">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mx-auto section-head text-center">
+                        <h2>Checkout What Our Customers Are <u>Saying About This
+					Training Course</u>
+                        </h2>
+                        <p class="mb-4 mb-lg-5 px-2 px-lg-5 mt-2"><span>Lorem ipsum dolor sit amet</span>, consectetur adipiscing elit. Quisque imperdiet augue sed elit convallis, at auctor velit aliquam. Proin luctus ligula in quam.
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-4 text-center">
+                        <div class="testimonials-child bg-white mb-4">
+                            <figure><img src="assets/images/testimonials-comma.png" alt="Online Training Courses"></figure>
+                            <p class="mb-lg-3 mb-md-2">Lorem ipsum dolor sit amet, consec tetur adipis cing elit. Maec enas idnib non libero ull amcorper fringillasent</p>
+                            <p class="mb-3">Lorem ipsum dolor sit amet, consec tetur adipis cing elit. Maec enas idnib non.</p>
+                            <figure><img src="assets/images/test-1.png" alt="Online Training Courses" class="test-img"></figure>
+                            <h4 class="mb-lg-2">John Doe</h4>
+                            <h5>Company Name NY</h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 text-center">
+                        <div class="testimonials-child bg-white mb-4">
+                            <figure><img src="assets/images/testimonials-comma.png" alt="Online Training Courses"></figure>
+                            <p class="mb-lg-3 mb-md-2">Lorem ipsum dolor sit amet, consec tetur adipis cing elit. Maec enas idnib non libero ull amcorper fringillasent</p>
+                            <p class="mb-3">Lorem ipsum dolor sit amet, consec tetur adipis cing elit. Maec enas idnib non.</p>
+                            <figure><img src="assets/images/test-2.png" alt="Online Training Courses" class="test-img"></figure>
+                            <h4 class="mb-lg-2">John Doe</h4>
+                            <h5>Company Name NY</h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 text-center">
+                        <div class="testimonials-child bg-white mb-4">
+                            <figure><img src="assets/images/testimonials-comma.png" alt="Online Training Courses"></figure>
+                            <p class="mb-lg-3 mb-md-2">Lorem ipsum dolor sit amet, consec tetur adipis cing elit. Maec enas idnib non libero ull amcorper fringillasent</p>
+                            <p class="mb-3">Lorem ipsum dolor sit amet, consec tetur adipis cing elit. Maec enas idnib non.</p>
+                            <figure><img src="assets/images/test-3.png" alt="Online Training Courses" class="test-img"></figure>
+                            <h4 class="mb-lg-2">John Doe</h4>
+                            <h5>Company Name NY</h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 text-center mb-4">
+                        <div class="testimonials-child bg-white">
+                            <figure><img src="assets/images/testimonials-comma.png" alt="Online Training Courses"></figure>
+                            <p class="mb-lg-3 mb-md-2">Lorem ipsum dolor sit amet, consec tetur adipis cing elit. Maec enas idnib non libero ull amcorper fringillasent</p>
+                            <p class="mb-3">Lorem ipsum dolor sit amet, consec tetur adipis cing elit. Maec enas idnib non.</p>
+                            <figure><img src="assets/images/test-4.png" alt="Online Training Courses" class="test-img"></figure>
+                            <h4 class="mb-lg-2">Jane Doe</h4>
+                            <h5>Company Name NY</h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 text-center mb-4">
+                        <div class="testimonials-child bg-white">
+                            <figure><img src="assets/images/testimonials-comma.png" alt="Online Training Courses"></figure>
+                            <p class="mb-lg-3 mb-md-2">Lorem ipsum dolor sit amet, consec tetur adipis cing elit. Maec enas idnib non libero ull amcorper fringillasent</p>
+                            <p class="mb-3">Lorem ipsum dolor sit amet, consec tetur adipis cing elit. Maec enas idnib non.</p>
+                            <figure><img src="assets/images/test-5.png" alt="Online Training Courses" class="test-img"></figure>
+                            <h4 class="mb-lg-2">Jane Doe</h4>
+                            <h5>Company Name NY</h5>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 text-center mb-4">
+                        <div class="testimonials-child bg-white">
+                            <figure><img src="assets/images/testimonials-comma.png" alt="Online Training Courses"></figure>
+                            <p class="mb-lg-3 mb-md-2">Lorem ipsum dolor sit amet, consec tetur adipis cing elit. Maec enas idnib non libero ull amcorper fringillasent</p>
+                            <p class="mb-3">Lorem ipsum dolor sit amet, consec tetur adipis cing elit. Maec enas idnib non.</p>
+                            <figure><img src="assets/images/test-6.png" alt="Online Training Courses" class="test-img"></figure>
+                            <h4 class="mb-lg-2">Jane Doe</h4>
+                            <h5>Company Name NY</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Testimomials -->
+        <!-- Main -->
+        <!-- Start Footer -->
+    </main>
+    <!-- Start Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-11 mx-auto text-center">
+                    <div class="logo mx-auto mb-4">
+                        <!-- Footer Logo -->
+                        <a class="navbar-brand" href="index.html"><img class="light-logo" src="assets/images/footer-logo.svg" alt="footer-logo" loading="lazy"></a>
+                    </div>
+                    <div class="footer_content">
+                        <div class="dummy_content ">
+                            <!-- Site Description -->
+                            <p>* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas fringilla consectetur metus at scelerisque. Nam mattis felis quis sollicitudin cursus. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus orci luctus.
+                            </p>
+                        </div>
+                        <!-- Footer Menu Item -->
+                        <ul class="list-inline">
+                            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                            <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+                        </ul>
+                        <!-- Copyright Text -->
+                        <p class="copyright">&copy; Copyright <span id="copy_rightYears"></span> YourBrand.com-All rights reserved </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    
+    <!-- You do not want to use a back to top - Comment bellow line -->
+    <div class="backtotop"></div>
+    <!-- Preloader -->
+    <!-- You do not want to use a preloader - Comment bellow line -->
+    <div id="preloader"></div>
+    <!-- JQuery JS -->
+    <script src="assets/js/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <!-- jQuery validate js -->
+    <script src="assets/js/validate.min.js"></script>
+    <!-- Stripe -->
+    <script src="../../v2/index.htm"></script>
+    <!-- Custom js -->
+    <script src="assets/js/main.js"></script>
+    <!-- Product Display Section - JS -->
+    <script src="../common/js/custom-2.js"></script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'8bc479574be2482f',t:'MTcyNTE4NTQ2My4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+
+</html>

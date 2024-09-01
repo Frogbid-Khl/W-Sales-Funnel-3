@@ -1,0 +1,2791 @@
+/*============================================
+Theme Name: Online Training Courses
+Author: OG Web Solutions
+Author URI: https://www.ogwebsolutions.com/
+Version:  1.0
+============================================*/
+
+
+/*============================================
+                    Index
+============================================
+
+# Global Style
+	##Google Font
+# Homepage
+	## Header
+	## Hero-section
+	## Schedule Section
+	## About Section	
+	## Learn Section 
+	## Trainers Section
+	## Services Section
+	## Results Section
+	## Testimonials Section
+	## facebook-group Section
+	## Sell Section
+	## FAQ Section
+	## Footer Section
+	## Responsive
+
+# Upsell
+	## Hero Section
+	## Sell-2 Section
+	## Reasons Section
+	## Responsive
+
+# Downsell
+	## Banner Section
+
+# Order Page
+	## Hero Section
+	## Responsive
+
+# Thank You Page
+	## Banner Section 
+	## Thank You Content Section
+	## social-media Section
+	## Responsive
+
+# Order Cancelled
+	## Hero Section
+	## Responsive
+
+# Privacy Policy
+	##Hero Section
+	##Responsive
+	
+# Terms and Conditions Page
+	##Hero Section
+	##Responsive
+
+# Error 404
+	## Header
+
+# Preloader
+
+# Back to Top Button
+
+/*============================================
+            #. Global Style
+============================================*/
+
+
+/*---------- Google Font ----------*/
+
+@import url('../../../../css2-9');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+        padding: 0 15px 0 15px;
+        margin: 0 auto;
+        overflow: initial;
+    }
+}
+
+@media (max-width: 1199px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+ul {
+    list-style: none;
+    padding-left: inherit;
+}
+
+img {
+    max-width: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    scroll-padding-top: 70px;
+}
+
+
+/* .module {
+	scroll-behavior: [ auto | smooth ];
+  } */
+
+
+/* font-family */
+
+h3,
+a,
+p,
+li,
+h5,
+h4,
+h2,
+h1,
+h5 {
+    font-family: Montserrat;
+    margin-bottom: 0;
+}
+
+body {
+    color: #2e2e2e;
+}
+
+#testimonials .test-img {
+    border-radius: 50%;
+}
+
+
+/*============================================
+            # Homepage
+============================================*/
+
+
+/*---------- ## Header ----------*/
+
+#hero-section video {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ffffff;
+}
+
+header .navbar {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: transparent
+}
+
+.nav-link:hover {
+    color: #00c14e!important;
+}
+
+header {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 999;
+    background: rgba(255, 255, 255, 1);
+    /* padding: 15px 50px; */
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+    -ms-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+header.sticky {
+    background-color: #000000;
+    position: fixed;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.navbar-brand {
+    margin-right: 0;
+}
+
+
+/* li.nav-item{margin-right: 20px;} */
+
+li.nav-item:nth-child(4) {
+    margin-right: 0px;
+}
+
+.fixed-top {
+    opacity: 1;
+    background: transparent;
+    width: 100%;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.btn:hover {
+    color: #ffffff;
+}
+
+.header-top .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-top p {
+    font-size: 16px;
+    color: #6b6b6b;
+    font-weight: 500;
+    margin-bottom: auto;
+}
+
+.head-right img {
+    margin-right: 8px;
+}
+
+.header-top {
+    background-color: #ffffff!important;
+    padding-top: 9px;
+    padding-bottom: 8px;
+}
+
+.email i,
+.email a {
+    color: #3c3c3c;
+    text-decoration: none;
+    width: 25px;
+    height: 20px;
+}
+
+.email a {
+    font-family: Montserrat;
+}
+
+
+/* Nabar */
+
+.light-logo {
+    width: 196px;
+}
+
+.navbar-nav .nav-item {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+
+/* Hero Section */
+
+#hero-section {
+    padding: 135px 0 80px;
+    background-image: url(../images/herobanner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+
+#hero-section .section-head h1 {
+    font-size: 75px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #fffc0d;
+}
+
+.section-head p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.section-head p span {
+    font-weight: 700;
+}
+
+#hero-section h2 {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+
+/* timer */
+
+.banner .warning {
+    padding: 20px 30px;
+    background: rgba(255, 255, 255, 0.5);
+    border: 3px dotted #0e3478;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.warning {
+    color: #ffffff;
+}
+
+.warning h3 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: 1.5;
+}
+
+.timer>div {
+    padding: 0 15px;
+}
+
+.timer span {
+    font-size: 30px;
+    line-height: 60px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fffc0d;
+    border-radius: 100%;
+    border: 3px solid #fffc0d;
+    height: 90px;
+    width: 90px;
+}
+
+.smalltext {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.btn {
+    background: linear-gradient(to bottom, #00973d 0%, #00c14e 100%);
+    padding: 20px 45px 20px 45px;
+}
+
+.btn:hover {
+    background: linear-gradient(to bottom, #00c14e 100%, #00973d 0%);
+}
+
+.btn .btnmain {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.btn .btnsub {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+/* Schedule Section */
+
+#schedule h5 {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 1;
+    margin-bottom: 0;
+}
+
+#schedule {
+    background-color: #111d29;
+}
+
+#schedule p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fffc0d;
+    margin-bottom: 0;
+}
+
+
+/* About Section */
+
+#about {
+    padding: 80px 0;
+}
+
+.section-head h2 {
+    font-size: 55px;
+    font-weight: 800;
+}
+
+#about video {
+    border: 10px solid #ffffff;
+    box-shadow: 0 0 5px #999;
+    max-width: 100%;
+}
+
+#about h5 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+#about p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#about p span {
+    font-weight: 700;
+}
+
+
+/* Learn Section */
+
+#learn {
+    padding: 80px 0 80px;
+    background-image: url(../images/learn-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+
+#learn h5 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#learn p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.bg-white.learn-child {
+    padding: 35px 35px;
+}
+
+#learn .main-button {
+    position: relative;
+}
+
+#learn .main-button::before {
+    background-image: url(../images/optin-before.png);
+    position: absolute;
+    left: 215px;
+    top: -40px;
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 68px;
+    height: 178px;
+}
+
+#learn .main-button::after {
+    background-image: url(../images/optin-after.png);
+    position: absolute;
+    right: 215px;
+    top: -40px;
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 68px;
+    height: 178px;
+}
+
+
+/* Trainers Section*/
+
+#trainers {
+    padding: 80px 0;
+}
+
+#trainers h5 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+#trainers p {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3c3c3c;
+}
+
+
+/* Services Section*/
+
+#services {
+    padding: 80px 0;
+    background-color: #1a032d;
+}
+
+#services h5 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#services h3 {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+#services h5 span {
+    background-color: #02bd51;
+    padding: 15px 25px;
+    border-radius: 5px;
+}
+
+#services li::before {
+    content: "\2022";
+    color: #02bd51;
+    font-weight: 800;
+    display: inline-block;
+    width: 1em;
+}
+
+.services-child p {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.services-child {
+    padding-right: 1px;
+}
+
+.services-child li {
+    font-size: 17px;
+    line-height: 2.1;
+}
+
+
+/* Results Section*/
+
+#results {
+    padding: 80px 0;
+}
+
+.results-child-2 p {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.results-child-2 p span {
+    font-weight: 700;
+}
+
+
+/* Testiminials Section*/
+
+#testimonials {
+    padding: 80px 0;
+    background-color: #f1f1f1;
+}
+
+.testimonials-child {
+    padding: 45px 45px 35px 45px;
+    box-shadow: 0 0 5px #d3d3d3;
+}
+
+.testimonials-child p {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.testimonials-child h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.testimonials-child h5 {
+    font-size: 17px;
+    font-weight: 600;
+    color: #7f7f7f;
+}
+
+
+/* facebook-group Section*/
+
+#facebook-group {
+    background-color: #000000;
+    padding: 100px 0;
+}
+
+#facebook-group .section-head p {
+    font-size: 20px;
+}
+
+#facebook-group .section-head h2 span {
+    color: #fffc0d;
+}
+
+
+/* Sell Section*/
+
+#sell {
+    padding: 80px 0;
+}
+
+.sell-child li {
+    position: relative;
+    padding-left: 135px;
+}
+
+.sell-child li:before {
+    position: absolute;
+    left: 45px;
+    top: 0;
+    width: 59px;
+    height: 28px;
+    background-image: url(../images/sell-arrow.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+}
+
+.sell-child h3 span {
+    position: absolute;
+    right: 100px;
+    width: 0px;
+    color: #ed4336;
+    font-size: 28px;
+}
+
+.sell-child h3 {
+    position: relative;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.sell-child p {
+    font-size: 18px;
+    font-weight: 500;
+    position: relative;
+    padding-right: 120px;
+}
+
+.sell-child p span {
+    position: absolute;
+    right: 100px;
+    width: 0px;
+    color: #ed4336;
+    font-size: 18px;
+    top: 0;
+    font-weight: 600;
+}
+
+.sell-bottom h5 {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.sell-bottom h4 {
+    font-size: 75px;
+    font-weight: 800;
+    color: #ff4e00;
+}
+
+.sell-bottom .main-button {
+    position: relative;
+}
+
+.sell-bottom .main-button::before {
+    background-image: url(../images/sell-before.png);
+    position: absolute;
+    left: 10px;
+    top: -40px;
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 68px;
+    height: 178px;
+}
+
+.sell-bottom .main-button::after {
+    background-image: url(../images/sell-after.png);
+    position: absolute;
+    right: 10px;
+    top: -40px;
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 68px;
+    height: 178px;
+}
+
+
+/* FAQ Section*/
+
+#faq {
+    padding: 80px 0;
+    background-color: #f1f1f1;
+}
+
+#faq h5 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.faq-child p {
+    font-size: 18px;
+    font-weight: 500;
+    padding-right: 40px;
+}
+
+
+/* Footer Section*/
+
+footer {
+    background-color: #000000;
+    padding: 57px 0 59px 0;
+    text-align: center;
+    color: #fff;
+    border-top: 7px solid #00c14e;
+}
+
+footer img {
+    margin-bottom: 8px;
+    width: 196px;
+}
+
+.dummy_content p {
+    color: rgb(134, 131, 155);
+    font-size: 18px;
+}
+
+.footer_content {
+    font-size: 13px;
+}
+
+ul.list-inline {
+    margin-bottom: 23px;
+    margin-bottom: 17px;
+    margin-top: 18px;
+}
+
+p.copyright {
+    color: rgb(134, 131, 155);
+    font-size: 17px;
+}
+
+footer .flogo {
+    width: 215px;
+}
+
+footer ul {
+    list-style: none;
+    margin: 25px 0 15px;
+    display: flex;
+    justify-content: center;
+}
+
+footer li {
+    border-right: 1px solid rgb(134, 131, 155);
+    padding: 0 14px;
+}
+
+footer li:last-child {
+    padding-right: 0;
+    border-right: 0;
+}
+
+footer li a {
+    color: rgb(134, 131, 155);
+    font-size: 17px;
+    text-decoration: none;
+}
+
+footer li a:hover {
+    color: #ffffff;
+}
+
+.us-img img {
+    max-width: 100%;
+}
+
+.modal-footer .main-button .btn {
+    padding: 17px 48px 17px 48px!important;
+}
+
+
+/* Responsive */
+
+@media (max-width:1279px) {
+    #hero-section .section-head h1 {
+        font-size: 65px;
+    }
+    .section-head p {
+        font-size: 18px;
+    }
+    .warning h3 {
+        font-size: 30px;
+    }
+    .timer span {
+        font-size: 28px;
+        height: 85px;
+        width: 85px;
+    }
+    .btn .btnmain {
+        font-size: 24px;
+    }
+    .btn .btnsub {
+        font-size: 17px;
+    }
+    .btn {
+        padding: 18px 40px 18px 40px;
+    }
+    #hero-section h2 {
+        font-size: 24px;
+    }
+    .section-head h2 {
+        font-size: 45px;
+    }
+    #about p {
+        font-size: 17px;
+    }
+    #about h5 {
+        font-size: 28px;
+    }
+    #learn .main-button::before {
+        left: 200px;
+    }
+    #learn .main-button::after {
+        right: 200px;
+    }
+    #services {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .services-child ul {
+        margin-bottom: 3rem;
+    }
+    .services-child p {
+        font-size: 17px;
+        font-weight: 500;
+    }
+    #services h3 {
+        margin-top: 30px !important;
+    }
+    #services h5 {
+        margin-top: 30px;
+    }
+    .results-child-2 p {
+        font-size: 18px;
+    }
+    .sell-bottom h5 {
+        font-size: 45px;
+    }
+    .sell-bottom h4 {
+        font-size: 70px;
+    }
+    .faq-child p {
+        font-size: 17px;
+    }
+    #faq h5 {
+        font-size: 20px;
+    }
+    footer p,
+    ul,
+    li {
+        font-size: 17px!important;
+    }
+    .sell-child p {
+        font-size: 17px;
+    }
+    .sell-child h3 {
+        font-size: 20px;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 1279px) {
+    .testimonials-child {
+        padding: 30px 20px;
+    }
+}
+
+@media (max-width:1023px) {
+    #hero-section .section-head h1 {
+        font-size: 60px;
+    }
+    #schedule h5 {
+        font-size: 28px;
+    }
+    .section-head h2 {
+        font-size: 40px;
+    }
+    #hero-section h2 {
+        font-size: 23px;
+    }
+    #schedule p {
+        font-size: 17px;
+    }
+    .learn-child p {
+        font-size: 17px!important;
+        line-height: 1.3;
+    }
+    #services h5 span {
+        padding: 10px 20px;
+    }
+    #about h5 {
+        font-size: 25px;
+    }
+    #services h5 {
+        margin-top: 15px;
+    }
+    #services h3 {
+        font-size: 24px;
+    }
+    .bg-white.learn-child {
+        padding: 30px 30px;
+    }
+    #learn .main-button::after {
+        right: 180px;
+    }
+    #learn .main-button::before {
+        left: 180px;
+    }
+    .testimonials-child {
+        /* padding: 30px 20px 35px 20px; */
+    }
+    .testimonials-child p {
+        font-size: 17px;
+    }
+    .sell-bottom h5 {
+        font-size: 40px;
+    }
+    .sell-bottom h4 {
+        font-size: 65px;
+    }
+    .sell-child p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:991px) {
+    #hero-section .section-head h1 {
+        font-size: 50px;
+    }
+    .navbar-expand-md .navbar-nav .nav-link {
+        padding-right: 0.5rem;
+        padding-left: 0.5rem;
+    }
+    .section-head p {
+        font-size: 18px;
+    }
+    .warning h3 {
+        font-size: 25px;
+    }
+    #hero-section h2 {
+        font-size: 18px;
+    }
+    #hero-section video {
+        margin-top: 30px;
+    }
+    #schedule h5 {
+        font-size: 25px;
+    }
+    #schedule p {
+        font-size: 16px;
+    }
+    .section-head h2 {
+        font-size: 35px;
+    }
+    #trainers p {
+        font-size: 18px;
+    }
+    #learn .section-head p {
+        font-size: 18px!important;
+    }
+    .learn-child p {
+        font-size: 16px !important;
+    }
+    #about h5 {
+        font-size: 23px;
+    }
+    #learn h5 {
+        font-size: 17px;
+    }
+    /* #learn p {
+		font-size: 16px;
+		line-height: 20px;
+	} */
+    .bg-white.learn-child {
+        padding: 20px 20px;
+    }
+    #learn .main-button::before {
+        left: 70px;
+    }
+    #learn .main-button::after {
+        right: 70px;
+    }
+    .services-child ul {
+        margin-bottom: 1rem;
+    }
+    #services h5 {
+        font-size: 18px;
+    }
+    #services h5 span {
+        padding: 12px 20px;
+    }
+    .services-parent {
+        flex-wrap: wrap-reverse;
+    }
+    .services-right img,
+    .results-child-1 img {
+        width: 100%;
+    }
+    #facebook-group .section-head p {
+        font-size: 18px;
+    }
+    .testimonials-child {
+        /* padding: 25px 15px 30px 15px; */
+    }
+    .testimonials-child p {
+        font-size: 16px;
+    }
+    .testimonials-child h4 {
+        font-size: 19px;
+    }
+    .testimonials-child h5 {
+        font-size: 16px;
+    }
+    .sell-child p {
+        font-size: 16px;
+    }
+    .sell-child h3 span {
+        font-size: 25px;
+    }
+    .sell-child p span {
+        font-size: 17px;
+    }
+    .sell-bottom h5 {
+        font-size: 35px;
+    }
+    .sell-bottom h4 {
+        font-size: 55px;
+    }
+    .sell-bottom .main-button::before {
+        left: -70px;
+    }
+    .sell-bottom .main-button::after {
+        right: -70px;
+    }
+    #hero-section {
+        padding: 90px 0 70px;
+    }
+    .sell-child li::before {
+        left: 10px;
+        width: 45px;
+        height: 20px;
+    }
+    .sell-child li {
+        padding-left: 70px;
+    }
+    #about,
+    #learn,
+    #trainers,
+    #services,
+    #results,
+    #testimonials,
+    #facebook-group,
+    #sell,
+    #faq {
+        padding: 60px 0;
+    }
+    .sell-child p {
+        padding-right: 95px;
+    }
+    .sell-child h3 span {
+        right: 75px;
+    }
+    .sell-child p span {
+        right: 75px;
+    }
+    .faq-child p {
+        padding-right: 0;
+    }
+}
+
+@media (max-width:767px) {
+    .navbar-toggler {
+        padding: 5px;
+    }
+    .navbar-toggler.show .navbar-toggler-icon {
+        background-image: url(../images/close.png);
+        background-size: cover;
+        display: block;
+    }
+    #about,
+    #learn,
+    #trainers,
+    #services,
+    #results,
+    #testimonials,
+    #facebook-group,
+    #sell,
+    #faq {
+        padding: 50px 0;
+    }
+    #hero-section .section-head h1 {
+        font-size: 40px;
+    }
+    .hero-bottom {
+        flex-wrap: wrap-reverse;
+    }
+    .section-head p {
+        font-size: 17px;
+    }
+    .warning h3 {
+        font-size: 22px;
+    }
+    .timer span {
+        font-size: 23px;
+        height: 60px;
+        width: 60px;
+    }
+    .btn {
+        padding: 15px 25px 15px 25px;
+    }
+    .btn .btnmain {
+        font-size: 20px;
+    }
+    .btn .btnsub {
+        font-size: 16px;
+    }
+    #hero-section video {
+        width: 100%;
+        height: auto;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    #hero-section h2 {
+        font-size: 19px;
+    }
+    .timer>div {
+        padding: 0 5px;
+    }
+    #hero-section {
+        padding: 90px 0 60px;
+    }
+    #schedule h5 {
+        font-size: 20px;
+    }
+    .section-head h2 {
+        font-size: 25px;
+    }
+    #about p {
+        font-size: 16px;
+    }
+    #about h5 {
+        font-size: 22px;
+    }
+    #about p {
+        font-size: 15px;
+    }
+    #learn p {
+        font-size: 15px;
+    }
+    #learn .main-button::after,
+    #learn .main-button::before {
+        display: none;
+    }
+    .services-child h3 {
+        margin-top: 30px !important;
+    }
+    .services-child p {
+        font-size: 17px;
+    }
+    .services-child li {
+        font-size: 16px!important;
+    }
+    .sell-child li::before {
+        left: -10px;
+        width: 40px;
+        height: 20px;
+    }
+    .sell-child li {
+        padding-left: 35px;
+        padding-right: 60px
+    }
+    .sell-child h3 {
+        font-size: 19px;
+    }
+    .sell-child p {
+        font-size: 15px;
+        padding-right: 25px;
+    }
+    .sell-child p span {
+        font-size: 14px;
+        top: 0px;
+        right: 0px;
+    }
+    .sell-child h3 span {
+        right: 00px;
+        top: 0;
+        font-size: 18px;
+    }
+    #facebook-group .section-head p {
+        font-size: 17px;
+    }
+    .sell-bottom h5 {
+        font-size: 30px;
+    }
+    .sell-bottom h4 {
+        font-size: 35px;
+    }
+    .sell-bottom .main-button::before,
+    .sell-bottom .main-button::after {
+        display: none;
+    }
+    #schedule h5 {
+        margin-top: .5rem !important;
+    }
+    #schedule p {
+        font-size: 15px;
+    }
+    .faq-child p {
+        font-size: 16px;
+    }
+    .services-child li {
+        line-height: 1.7;
+    }
+    .light-logo {
+        width: 180px;
+    }
+    .navbar-toggler-icon {
+        width: 30px;
+        height: 30px;
+        position: relative;
+    }
+    #navbarNav li {
+        text-align: center;
+        line-height: 1;
+    }
+    .home-header {
+        background-color: black;
+    }
+    #learn .section-head p {
+        font-size: 16px!important;
+    }
+}
+
+@media (max-width:568px) {
+    .sell-child h3 {
+        font-size: 17px;
+    }
+    .sell-child h3 span {
+        font-size: 17px;
+    }
+    .sell-child p span {
+        font-size: 14px;
+        top: 4px;
+    }
+}
+
+@media (max-width:399px) {
+    #hero-section .section-head h1 {
+        font-size: 35px;
+    }
+    .warning h3 {
+        font-size: 20px;
+    }
+    .btn .btnmain {
+        font-size: 17px;
+    }
+    .btn .btnsub {
+        font-size: 15px;
+    }
+    #hero-section h2 {
+        font-size: 17px;
+    }
+    .section-head h2 {
+        font-size: 23px;
+    }
+    #trainers p {
+        font-size: 16px;
+    }
+    .section-head p {
+        font-size: 15px;
+    }
+    #services h3 {
+        font-size: 18px;
+    }
+    .services-child p {
+        font-size: 16px;
+    }
+    .services-child li {
+        font-size: 15px !important;
+    }
+    .results-child-2 p {
+        font-size: 16px;
+    }
+    #facebook-group .section-head p {
+        font-size: 16px;
+    }
+    .sell-child h3 {
+        font-size: 14px;
+    }
+    .sell-child li::before {
+        left: -15px;
+        width: 25px;
+        height: 15px;
+    }
+    .sell-child li {
+        padding-left: 15px;
+    }
+    .sell-child h3 span {
+        font-size: 20px;
+    }
+    .sell-child p span {
+        font-size: 12px;
+    }
+    .sell-bottom h5 {
+        font-size: 25px;
+    }
+    .sell-bottom h4 {
+        font-size: 30px;
+    }
+    footer li a,
+    .dummy_content p,
+    p.copyright {
+        font-size: 16px;
+    }
+    #hero-section {
+        padding: 90px 0 50px;
+    }
+    footer p,
+    ul,
+    li {
+        font-size: 16px !important;
+    }
+    footer li a,
+    .dummy_content p,
+    .copyright {
+        font-size: 14px!important;
+    }
+}
+
+
+/*============================================
+            # Upsell
+============================================*/
+
+
+/* Hero Section */
+
+.banner-2 {
+    padding: 141px 0 80px!important;
+}
+
+.banner-2 h1 {
+    font-size: 50px!important;
+    text-transform: capitalize!important;
+}
+
+.banner-2 h1 span,
+.navbar-nav li span {
+    color: #fffc0d;
+}
+
+.banner-2 video {
+    max-width: 750px!important;
+}
+
+.banner-2 .main-button {
+    position: relative;
+}
+
+.banner-2 .main-button::before {
+    background-image: url(../images/optin-before.png);
+    position: absolute;
+    left: 215px;
+    top: -40px;
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 68px;
+    height: 178px;
+}
+
+.banner-2 .main-button::after {
+    background-image: url(../images/optin-after.png);
+    position: absolute;
+    right: 215px;
+    top: -40px;
+    content: "";
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    width: 68px;
+    height: 178px;
+}
+
+.banner-2 .main-button p,
+.banner-2 .main-button p a {
+    font-size: 12px;
+    color: #e9d7eb;
+    font-weight: 400;
+    font-style: italic;
+}
+
+
+/* Sell-2 Section*/
+
+.sell-2 {
+    background-color: #f1f1f1;
+}
+
+.sell-2 .main-button p,
+.sell-2 .main-button p a {
+    font-size: 12px;
+    color: #787878;
+    font-style: italic;
+    font-weight: 400;
+}
+
+
+/* Reasons Section*/
+
+#reasons {
+    padding: 80px 0;
+}
+
+.reasons-child ul {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.reasons-child li span {
+    font-weight: 700;
+}
+
+.reasons-child li {
+    position: relative;
+    padding-left: 100px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.reasons-child li:before {
+    position: absolute;
+    left: 40px;
+    top: 10px;
+    width: 28px;
+    height: 22px;
+    background-image: url(../images/green-li.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    content: "";
+}
+
+.reasons-child .main-button p,
+.reasons-child .main-button p a {
+    color: #787878;
+    font-weight: 400;
+    font-size: 12px;
+    font-style: italic;
+}
+
+
+/* Responsive */
+
+@media (max-width:1279px) {
+    .banner-2 h1 br {
+        display: none;
+    }
+    .banner-2 h1 {
+        font-size: 47px !important;
+    }
+    .banner-2 .main-button::after {
+        right: 180px;
+    }
+    .banner-2 .main-button::before {
+        left: 180px;
+    }
+    .reasons-child li::before {
+        left: 50px;
+        top: 5px;
+    }
+}
+
+@media (max-width:1023px) {
+    .banner-2 h1 {
+        font-size: 45px !important;
+    }
+    .banner-2 {
+        padding: 130px 0 80px !important;
+    }
+    .reasons-child li {
+        padding-left: 70px;
+    }
+    .reasons-child li::before {
+        left: 30px;
+        top: 5px;
+        width: 24px;
+        height: 20px;
+    }
+}
+
+@media (max-width:991px) {
+    .navbar-2 .container-fluid {
+        display: block;
+        text-align: center;
+    }
+    .navbar-2 .container-fluid ul {
+        display: block;
+    }
+    .navbar-2 img {
+        margin-bottom: 10px;
+    }
+    .banner-2 h1 {
+        font-size: 41px !important;
+    }
+    .banner-2 video {
+        width: 100%!important;
+        height: auto!important;
+    }
+    .banner-2 .main-button::after {
+        right: 70px;
+    }
+    .banner-2 .main-button::before {
+        left: 70px;
+    }
+    .sell-2 .main-button p,
+    .banner-2 .main-button p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width:767px) {
+    .banner-2 h1 {
+        font-size: 24px !important;
+    }
+    .banner-2 {
+        padding: 120px 0 60px !important;
+    }
+    .banner-2 .main-button::after,
+    .banner-2 .main-button::before {
+        display: none;
+    }
+    .reasons-child li::before {
+        left: 0;
+        top: 5px;
+        width: 20px;
+        height: 15px;
+    }
+    .reasons-child li {
+        padding-left: 30px;
+    }
+    #reasons {
+        padding: 50px 0;
+    }
+    .upsell-banner h1 {
+        margin-top: 50px;
+    }
+    .reasons-child .main-button p {
+        font-size: 14px;
+        line-height: 1.2;
+    }
+}
+
+@media (max-width:399px) {
+    .banner-2 h1 {
+        font-size: 21px !important;
+    }
+    #reasons .section-head h2 {
+        font-size: 22px;
+    }
+}
+
+
+/*============================================
+            # Downsell
+============================================*/
+
+
+/* Banner Section */
+
+.downsell-banner .main-button::before {
+    left: 110px!important;
+}
+
+.downsell-banner .main-button::after {
+    right: 110px!important;
+}
+
+@media (max-width:991px) {
+    .downsell-banner .main-button::before {
+        left: 75px !important;
+    }
+    .downsell-banner .main-button::after {
+        right: 75px !important;
+    }
+}
+
+
+/*============================================
+            # Order page
+============================================*/
+
+
+/* Hero Section */
+
+#order-id {
+    padding: 145px 0 80px;
+    background-image: url(../images/herobanner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+
+.orderformSection h1 {
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 50px;
+    margin-bottom: 40px;
+}
+
+.orderformSection h1 span {
+    color: #fffc0d;
+}
+
+.orderleftSec video {
+    max-width: 615px;
+    height: auto;
+    border: 1px solid #ffff;
+    margin-bottom: 20px;
+}
+
+.orderformSection #order-form {
+    padding: 30px;
+    border: 1px solid #d9d9d9;
+}
+
+.orderformSection #order-form {
+    padding: 24px;
+    border: 1px solid #d9d9d9;
+    /* box-shadow: 0 0 5px #c8c8c8; */
+}
+
+.orderrightSec .form-title {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 20px 0 20px;
+    text-align: left;
+    border-bottom: 1px dashed #aaaaaa;
+    margin-bottom: 20px;
+}
+
+.orderrightSec .main-button p {
+    font-size: 12px;
+    color: #787878;
+    font-weight: 500;
+}
+
+.title-top {
+    background-color: #02aee8;
+    font-size: 20px!important;
+    font-weight: 600!important;
+    padding: 20px 0 20px 35px!important;
+    border-bottom: 0!important;
+    margin-bottom: 0!important;
+}
+
+.form-control {
+    height: auto;
+    padding: 15px 20px;
+    font-size: 16px;
+    line-height: 1;
+    height:50px;
+    color: #aaaaaa;
+    background-color: #fbfbfb;
+    border-radius: 5px;
+    border: 1px solid #b6b6b6;
+    margin-bottom: 20px;
+}
+
+.form-control.error {
+    border-color: red;
+}
+
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+form .form-control:nth-child(8) {
+    margin-bottom: 0;
+}
+
+*::placeholder {
+    /* modern browser */
+    color: #aaaaaa!important;
+}
+
+.orderrightSec .yourProductlist {
+    background: #fbfbfb;
+    padding: 15px;
+    margin-bottom: 40px;
+    border: 1px solid #b6b6b6;
+    border-radius: 5px;
+}
+
+.orderrightSec .yourProductlist ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+dl,
+ol,
+ul {
+    margin-bottom: 0;
+}
+
+.orderrightSec .yourProductlist li:first-child,
+.orderrightSec .yourProductlist li:last-child {
+    color: #2a2a2a;
+    font-size: 16px;
+}
+
+.orderrightSec .yourProductlist li:not(:last-child) {
+    border-bottom: 1px solid #d9d9d9;
+    padding: 0 0 20px;
+    margin: 0 0 20px;
+}
+
+.orderrightSec .yourProductlist li {
+    font-size: 14px;
+    color: #757575;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.orderrightSec .yourProductlist li .pullLeft {
+    padding-right: 10px;
+}
+
+.orderrightSec .yourProductlist li:first-child,
+.orderrightSec .yourProductlist li:last-child {
+    color: #2a2a2a;
+    font-size: 16px;
+}
+
+.orderrightSec .yourProductlist li {
+    font-size: 14px;
+    color: #757575;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.orderformSection {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.orderformSection .orderleftSec li {
+    font-size: 20px;
+    line-height: 1.5;
+    background-image: url(../images/order-tick.png);
+    background-repeat: no-repeat;
+    background-position: left 25px;
+    background-size: 28px 22px;
+    padding-left: 50px;
+    padding-top: 20px;
+    text-align: left;
+    margin-left: 30px;
+    padding-right: 35px;
+}
+
+.orderformSection .orderleftSec li span {
+    font-weight: 700;
+}
+
+.orderleft-bottom h5 {
+    font-size: 33px;
+    margin-bottom: 0;
+    line-height: 1.1;
+}
+
+.orderleft-bottom h2 {
+    font-size: 49px;
+    color: #ffc600;
+    font-weight: 800;
+    line-height: 1.1;
+}
+
+.orderleft-bottom {
+    padding: 30px 0 30px;
+    border-bottom: 2px dotted #d1d1d1;
+}
+
+.orderrightSec h2 {
+    font-size: 40px;
+    color: #ea4a3e;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.orderrightSec h3 {
+    font-size: 30px;
+    color: #3c3c3c;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.orderrightSec .btn .btnmain {
+    font-size: 24px;
+}
+
+.orderrightSec .btn .btnsub {
+    font-size: 16px;
+}
+
+.orderrightSec .btn {
+    padding: 30px 47px;
+    width: 100%;
+}
+
+.orderrightSec img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* Responsive */
+
+@media (max-width:1279px) {
+    .orderformSection {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .orderformSection .orderleftSec li {
+        font-size: 19px;
+    }
+    .orderrightSec h2 {
+        font-size: 38px;
+    }
+    .orderrightSec h3 {
+        font-size: 28px;
+    }
+    .orderrightSec .btn {
+        padding: 18px 20px 18px 20px;
+        width: 100%;
+    }
+    .rcol .d-flex div p {
+        font-size: 11px;
+    }
+    .form-control {
+        padding: 15px 10px;
+    }
+    .orderrightSec .yourProductlist li:not(:last-child) {
+        padding: 0 0 20px;
+    }
+    .orderleftSec video {
+        width: 100%;
+    }
+    .orderrightSec .yourProductlist {
+        margin-bottom: 30px;
+    }
+    .orderformSection #order-form {
+        padding: 20px;
+    }
+}
+
+@media (max-width:1023px) {
+    .banner-3 {
+        padding: 130px 0 70px 0 !important;
+    }
+    .orderleft-bottom h5 {
+        font-size: 30px;
+    }
+    .orderleft-bottom h2 {
+        font-size: 47px;
+    }
+    .orderrightSec h2 {
+        font-size: 35px;
+    }
+    .orderrightSec h3 {
+        font-size: 25px;
+    }
+    .pullLeft {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:991px) {
+    .banner-3 {
+        padding: 110px 0 60px 0 !important;
+    }
+    .orderleftSec img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .orderleftSec .d-flex {
+        justify-content: center!important;
+    }
+    .orderrightSec {
+        margin-top: 35px;
+    }
+    .orderformSection .orderrightSec {
+        margin-top: 45px;
+    }
+    .orderrightSec .form-title {
+        padding: 10px 0 20px;
+    }
+    .orderformSection {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .header-2 .navbar-expand-md .navbar-collapse {
+        flex-basis: auto;
+    }
+    .orderrightSec {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .orderformSection h1 {
+        font-size: 33px;
+    }
+    .orderrightSec .btn .btnmain {
+        font-size: 28px;
+    }
+}
+
+@media (max-width:767px) {
+    .header-2 .navbar-nav .nav-item {
+        font-size: 15px !important;
+    }
+    .header-2 .navbar-nav .nav-item {
+        font-size: 17px;
+        line-height: 1.1;
+    }
+    .banner-3 {
+        padding: 91px 0 60px 0 !important;
+    }
+    .orderformSection h1 {
+        font-size: 28px;
+        line-height: 1.3;
+    }
+    .orderformSection {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .orderleft-bottom h5 {
+        font-size: 25px;
+    }
+    .orderleft-bottom h2 {
+        font-size: 40px;
+    }
+    .orderleft-bottom {
+        padding: 25px 0 24px;
+    }
+    .orderleft-bottom .col-12 .lcol .mt-5 .mb-3 {
+        margin-top: 30px !important;
+    }
+    .orderrightSec h2 {
+        font-size: 28px;
+    }
+    .orderformSection .orderrightSec {
+        padding: 25px 15px 25px 15px;
+    }
+    .orderrightSec h3 {
+        font-size: 20px;
+    }
+    .orderformSection .orderrightSec {
+        padding: 15px 10px 20px;
+    }
+    .form-control {
+        padding: 15px 15px;
+        font-size: 14px;
+    }
+    .orderrightSec .form-title {
+        font-size: 17px;
+    }
+    .orderrightSec .yourProductlist {
+        padding: 15px 10px;
+    }
+    .orderrightSec .yourProductlist li {
+        font-size: 13px;
+    }
+    .orderrightSec .yourProductlist li:first-child,
+    .orderrightSec .yourProductlist li:last-child {
+        font-size: 14px;
+    }
+    .orderrightSec .btn .btnmain {
+        font-size: 15px;
+    }
+    .orderrightSec .btn .btnsub {
+        font-size: 14px;
+    }
+    .banner-3 h4 {
+        height: 45px!important;
+    }
+    .orderformSection .orderleftSec li {
+        margin-left: 10px;
+        padding-left: 45px;
+        padding-right: 5px;
+    }
+    .orderformSection .orderrightSec {
+        padding: 0;
+    }
+    .title-top {
+        padding: 20px 0 20px 22px !important;
+        font-size: 19px !important;
+    }
+    .orderformSection #order-form {
+        padding: 15px;
+    }
+    .orderformSection .form-control {
+        margin-bottom: 15px;
+        padding: 10px 10px;
+    }
+    .yourProductlist .pullLeft,
+    .yourProductlist .pullRight {
+        font-size: 14px;
+    }
+    .orderrightSec .yourProductlist li:not(:last-child) {
+        padding: 0 0 10px;
+    }
+    .orderrightSec .yourProductlist {
+        margin-bottom: 20px;
+    }
+    #trainers p {
+        font-size: 15px;
+    }
+    #services h5 {
+        font-size: 16px;
+    }
+    #services h5 span {
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width:568px) {
+    .header-2 .navbar .container-fluid {
+        justify-content: center;
+    }
+    .navbar-nav {
+        margin-top: 8px;
+    }
+    .orderformSection h1 {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width:399px) {
+    .banner-3 {
+        padding: 115px 0 60px 0 !important;
+    }
+    .orderformSection h1 {
+        font-size: 25px;
+    }
+    .orderleft-bottom h2 {
+        font-size: 35px;
+    }
+    .orderleft-bottom h5 {
+        font-size: 23px;
+    }
+    .orderrightSec h2 {
+        font-size: 25px;
+    }
+    .orderrightSec h3 {
+        font-size: 18px;
+    }
+    .orderrightSec .btn .btnmain {
+        font-size: 19px;
+    }
+    .orderrightSec .btn .btnsub {
+        font-size: 13px;
+    }
+    .orderrightSec {
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .orderrightSec .yourProductlist li:not(:last-child) {
+        margin: 0 0 10px;
+    }
+    .orderleftSec video {
+        margin-bottom: 10px;
+    }
+    .orderformSection .orderleftSec li {
+        margin-left: 10px;
+        padding-left: 30px;
+        padding-right: 3px;
+        background-size: 20px 15px;
+    }
+    .orderformSection #order-form {
+        padding: 10px;
+    }
+    .orderrightSec .yourProductlist li:not(:last-child) {
+        padding: 0 0 10px;
+    }
+    .orderrightSec .yourProductlist {
+        margin-bottom: 15px;
+    }
+    .orderrightSec .btn {
+        padding: 15px 14px 15px 14px;
+    }
+}
+
+
+/*============================================
+            # Thank You
+============================================*/
+
+
+/* Banner Section */
+
+.thankyou-content {
+    padding: 80px 0 80px;
+}
+
+.thank-banner {
+    padding: 160px 0 140px;
+    background-image: url(../images/thank-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    text-align: center;
+}
+
+.thank-banner h1 {
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 75px;
+}
+
+.thank-banner h1 span {
+    color: #fffc0d;
+}
+
+.thank-banner p {
+    font-size: 20px;
+}
+
+
+/* Thank You Content Section */
+
+.thankyou-content .purchased-list h2 {
+    margin-bottom: 0;
+    font-weight: 500;
+    color: #fff;
+    font-size: 22px;
+    background: #c165d8;
+    padding: 15px 15px 15px 50px;
+    position: relative;
+}
+
+.thankyou-content .purchased-list h2::before {
+    background-image: url(../images/thank-icon.png);
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    content: "";
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 25px;
+    width: 25px;
+    height: 25px;
+}
+
+.purchased-list .product-detail {
+    box-shadow: 0 0 8px #c1c1c1;
+    padding: 0 30px;
+}
+
+.thankyou-content .container {
+    width: 893px;
+}
+
+.thankyou-content .section-head h2 {
+    font-size: 30px;
+    color: #2c2c2c;
+    font-weight: 600;
+}
+
+.product-detail th {
+    font-size: 20px;
+    color: #2c2c2c;
+}
+
+tbody td {
+    font-size: 18px;
+    color: #5f5f5f;
+    font-weight: 500;
+}
+
+.table>tbody {
+    border-top: 2px solid #cccccc;
+}
+
+tbody td {
+    padding: 20px 10px 35px 5px!important;
+}
+
+thead th {
+    border-bottom-width: 0!important;
+    padding: 22px 10px 15px 5px!important;
+}
+
+.table>:not(caption)>*>* {
+    border-bottom-width: 0;
+}
+
+.thankyou-content h3 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #2c2c2c;
+}
+
+.thankyou-content p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2c2c2c;
+    line-height: 28px;
+}
+
+.thankyou-content p a {
+    color: #403daf;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+
+/* social-media Section*/
+
+.social-media {
+    background-color: #f1f1f1;
+    padding: 80px 0 80px;
+}
+
+.social-media p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #2c2c2c;
+    line-height: 30px;
+}
+
+.social-media h5 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+/* Responsive */
+
+@media (max-width:1279px) {
+    .thank-banner h1 {
+        font-size: 55px;
+    }
+}
+
+@media (max-width:991px) {
+    .thank-banner h1 {
+        font-size: 50px;
+    }
+    .thank-banner p {
+        font-size: 19px;
+    }
+    .thank-banner {
+        padding: 150px 0 120px;
+    }
+    .thankyou-content .container {
+        width: 95%;
+    }
+}
+
+@media (max-width:767px) {
+    .thank-banner h1 {
+        font-size: 40px;
+        line-height: 45px;
+    }
+    .thank-banner {
+        padding: 120px 0 80px;
+    }
+    .thank-banner p {
+        font-size: 17px;
+    }
+    .thankyou-content,
+    .social-media {
+        padding: 50px 0 35px;
+    }
+    .thankyou-content .section-head h2 {
+        font-size: 25px;
+        line-height: 1.1;
+    }
+    .thankyou-content .purchased-list h2 {
+        font-size: 16px;
+    }
+    .thankyou-content .container {
+        width: 100%;
+    }
+    .purchased-list {
+        margin-top: 15px;
+    }
+    .purchased-list .product-detail {
+        padding: 0 10px;
+    }
+    tbody td,
+    .product-detail th {
+        font-size: 14px;
+        padding: 15px 10px 15px 5px !important;
+    }
+    .thankyou-content h3 {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .thankyou-content p {
+        font-size: 16px;
+        line-height: 25px;
+        margin-bottom: 15px;
+    }
+    .social-media p {
+        font-size: 16px;
+    }
+    .social-media h5 {
+        font-size: 19px;
+    }
+    table {
+        margin-bottom: 30px;
+    }
+    #hero-section {
+        padding: 90px 0 60px 0!important;
+    }
+}
+
+@media (max-width:399px) {
+    .navbar-nav li {
+        font-size: 15px!important;
+    }
+    .thank-banner h1 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+    .thank-banner p {
+        font-size: 15px;
+    }
+    tbody td,
+    .product-detail th {
+        padding: 15px 4px 15px 1px !important;
+    }
+    tbody td,
+    .product-detail th {
+        padding: 10px 4px 10px 1px !important;
+    }
+    .thankyou-content h3 {
+        font-size: 18px;
+    }
+    .thankyou-content p {
+        font-size: 15px;
+        line-height: 25px;
+        margin-bottom: 15px;
+    }
+    .social-media p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .social-media h5 {
+        font-size: 17px;
+    }
+}
+
+
+/*============================================
+            # Order Cancelled
+============================================*/
+
+
+/* Hero Section */
+
+.banner-5 h1 {
+    font-size: 100px!important;
+}
+
+.banner-5 h3 {
+    font-weight: 400!important;
+}
+
+
+/* Responsive */
+
+@media (max-width:1279px) {
+    .banner-5 h1 {
+        font-size: 95px !important;
+    }
+    .banner-5 h3 {
+        font-size: 40px!important;
+    }
+}
+
+@media (max-width:1023px) {
+    .banner-5 h1 {
+        font-size: 90px !important;
+    }
+    .banner-5 h3 {
+        font-size: 35px !important;
+    }
+}
+
+@media (max-width:991px) {
+    .banner-5 h1 {
+        font-size: 85px !important;
+    }
+    .banner-5 h3 {
+        font-size: 24px !important;
+    }
+}
+
+@media (max-width:767px) {
+    .banner-5 h1 {
+        font-size: 55px !important;
+    }
+    .banner-5 h3 {
+        font-size: 20px !important;
+    }
+}
+
+@media (max-width:399px) {
+    .banner-5 h1 {
+        font-size: 50px !important;
+    }
+    .banner-5 h3 {
+        font-size: 18px !important;
+    }
+}
+
+
+/*============================================
+            # Error 404
+============================================*/
+
+
+/* Header */
+
+.error-header.fixed-top {
+    background-color: black;
+}
+
+
+/*============================================
+            # Privacy Policy
+============================================*/
+
+
+/* Hero Banner */
+
+.banner p {
+    font-size: 27px!important;
+    font-weight: 500!important;
+}
+
+.privacypolicyterms p {
+    margin-bottom: 1rem;
+}
+
+
+/* Privacy policyterms Section */
+
+.privacypolicyterms h2 {
+    font-size: 32px;
+}
+
+.privacypolicyterms h3 {
+    font-size: 24px;
+}
+
+.privacypolicyterms h4 {
+    font-size: 22px;
+}
+
+.privacypolicyterms p {
+    font-size: 18px;
+}
+
+.privacypolicyterms p a {
+    color: #1577da;
+}
+
+.privacypolicyterms ul {}
+
+.privacypolicyterms li {
+    font-size: 18px;
+}
+
+.privacypolicyterms li {
+    list-style-type: disc;
+}
+
+.privacypolicyterms .highlight {
+    font-weight: 500;
+}
+
+
+/* Responsive */
+
+@media (max-width:1279px) {
+    .banner p {
+        font-size: 25px !important;
+    }
+}
+
+@media (max-width:1023px) {
+    .banner p {
+        font-size: 25px !important;
+    }
+    .banner p {
+        font-size: 23px !important;
+    }
+}
+
+@media (max-width:991px) {
+    .banner h1 {
+        font-size: 75px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .privacypolicyterms h2 {
+        font-size: 28px;
+    }
+    .privacypolicyterms h3 {
+        font-size: 22px;
+    }
+    .privacypolicyterms h4 {
+        font-size: 20px;
+    }
+    .privacypolicyterms p,
+    .privacypolicyterms li {
+        font-size: 16px;
+    }
+    .banner h1 {
+        font-size: 45px !important;
+    }
+    #hero-section {
+        padding: 120px 0 60px 0;
+    }
+    .banner p {
+        font-size: 18px !important;
+    }
+}
+
+@media (max-width:399px) {
+    .banner h1 {
+        font-size: 40px !important;
+    }
+    .banner p {
+        font-size: 16px !important;
+    }
+    .privacypolicyterms h2 {
+        font-size: 25px;
+    }
+    .privacypolicyterms h3 {
+        font-size: 21px;
+    }
+}
+
+
+/*============================================
+            # Terms and Conditions
+============================================*/
+
+
+/* Hero Banner */
+
+.bann h1 {
+    font-size: 85px !important;
+}
+
+
+/* Responsive */
+
+@media (max-width:1279px) {
+    .bann h1 {
+        font-size: 75px !important;
+    }
+}
+
+@media (max-width:991px) {
+    .bann h1 {
+        font-size: 50px !important;
+    }
+}
+
+@media (max-width:767px) {
+    .bann {
+        padding: 130px 0 60px 0!important;
+    }
+    .bann h1 {
+        font-size: 45px !important;
+        line-height: 45px;
+    }
+}
+
+
+/* Prelaoder */
+
+#preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 9999;
+    overflow: hidden;
+    background: #fff;
+}
+
+#preloader:before {
+    content: "";
+    position: fixed;
+    top: calc(50% - 30px);
+    left: calc(50% - 30px);
+    border: 6px solid #f2f2f2;
+    border-top: 6px solid #1577da;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    -webkit-animation: animate-preloader 1s linear infinite;
+    animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes animate-preloader {
+    0% {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
+
+
+/* Back to top button */
+
+.backtotop {
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    height: 40px;
+    width: 40px;
+    background-color: #1577da;
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    opacity: 0.9;
+    transition: opacity 200ms linear;
+    display: none;
+}
+
+.backtotop::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -7px;
+    margin-top: -4px;
+    transform: rotate(-45deg);
+    height: 0px;
+    width: 0px;
+    border-width: 3px 3px 0 0;
+    border-style: solid;
+    padding: 5px;
+    border-color: #ffffff;
+}
+
+.backtotop:hover {
+    opacity: 1;
+    transition: opacity 200ms linear;
+}
+
+/* stripe card */
+.payment-outer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 22px 15px 5px;
+    background-color: #e9e9e9;
+    position: relative;
+    margin-top:10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.payment-outer:before{
+    content: "";
+    position: absolute;
+    left: 35px;
+	top: -8px;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #e9e9e9;
+}
+.payment-outer .form-group{
+    width: 33.33%;
+    padding: 0 7px;
+}
+.payment-outer .form-group.card-number-group{
+    width: 100%;
+}
+.payment-outer .form-group #card_number{
+    background-image: url('../images/cards.png');
+    background-repeat: no-repeat;
+    background-size: 120px;
+    background-position: right 10px center;
+    padding-right: 140px;
+}
+.paypal-card-group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom:15px;
+}
+.paypal-card-group label:first-child{
+    margin-bottom: 10px;
+}
+.form-group.btn-outer{
+    position: relative;
+}
+.form-group.btn-outer #loader{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    background-color: rgba(0,0,0,0.4);
+	border-radius: 5px;
+}
+form #loader img{
+    width: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -10px;
+    margin-left: -10px;
+}
+.payment-wrap {
+    text-align: left;
+}
+.payment-wrap h4{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 390px) {
+    .payment-outer{
+   	 padding: 15px 10px 0px;
+    }
+    .payment-outer .form-group #card_number{
+   	 padding-right: 100px;
+   	 background-size: 80px;
+    }
+    form select{
+   	 background-size: 12px;
+    }
+}
+/* stripe card end */
